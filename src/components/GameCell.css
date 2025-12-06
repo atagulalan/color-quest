@@ -1,0 +1,69 @@
+.game-cell {
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.game-cell:hover {
+  transform: scale(1.05);
+}
+
+.game-cell:active {
+  transform: scale(0.95);
+}
+
+.cell-selected {
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.6);
+}
+
+.cell-different {
+  /* No special animation in this design */
+}
+
+.cell-shape {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.cell-shape-circle {
+  border-radius: 50%;
+}
+
+.cell-shape-heart,
+.cell-shape-star {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell-shape-heart svg,
+.cell-shape-star svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  .game-cell {
+    border: none;
+  }
+  
+  .cell-selected {
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.6);
+  }
+}
+

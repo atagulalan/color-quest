@@ -1,0 +1,24 @@
+{
+  "title": "Gizlilik Politikası",
+  "lastUpdated": "24 Ekim 2023",
+  "introduction": "Bu gizlilik politikası, [Şirket Adı] tarafından işletilen [Oyun Adı] mobil oyunu için kullanıcı gizliliğinizin nasıl korunduğunu açıklamaktadır. Bu politika, kişisel bilgilerinizin nasıl toplandığı, kullanıldığı ve paylaşıldığı hakkında sizi bilgilendirmeyi amaçlamaktadır.",
+  "sections": [
+    {
+      "heading": "Veri Toplama ve Kullanımı",
+      "content": "Uygulamayı kullandığınızda, oyun deneyimini geliştirmek için belirli veriler toplanabilir. Bu veriler, cihaz bilgileri, oyun içi ilerleme ve anonim kullanım istatistiklerini içerebilir. Bu bilgiler, hata düzeltme, özellik iyileştirme ve daha kişiselleştirilmiş bir kullanıcı deneyimi sunmak için kullanılır."
+    },
+    {
+      "heading": "Üçüncü Taraf Hizmetleri",
+      "content": "Oyun, reklam sunumu veya analitik gibi işlevler için üçüncü taraf hizmetler kullanabilir. Bu hizmetler kendi verilerini toplayabilir ve kendi gizlilik politikalarına tabidir. Uygulama, bu üçüncü tarafların gizlilik uygulamalarından açıkça sorumlu değildir."
+    },
+    {
+      "heading": "Kullanıcı Hakları",
+      "content": "Verilerinize erişme, düzeltme veya silme haklarınız bulunmaktadır. Bu haklarınızı kullanmak için iletisim@example.com adresinden bize e-posta gönderebilirsiniz. Makul bir süre içinde size yanıt verilecektir."
+    },
+    {
+      "heading": "Politika Değişiklikleri",
+      "content": "Gizlilik politikası zaman zaman güncellenebilir. Herhangi bir değişiklik yapıldığında size bildirilecek ve bu değişiklikler bu sayfada yayınlandığında yürürlüğe girecektir."
+    }
+  ]
+}
+

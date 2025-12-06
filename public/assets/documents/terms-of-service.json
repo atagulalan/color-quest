@@ -1,0 +1,28 @@
+{
+  "title": "Kullanım Şartları",
+  "lastUpdated": "24 Ekim 2023",
+  "introduction": "Bu kullanım şartları, [Oyun Adı] mobil oyununu kullanırken uymanız gereken kuralları ve koşulları belirlemektedir. Uygulamayı kullanarak, bu şartları kabul etmiş sayılırsınız.",
+  "sections": [
+    {
+      "heading": "Kabul ve Uyum",
+      "content": "Uygulamayı kullanarak, bu kullanım şartlarını kabul etmiş sayılırsınız. Bu şartlara uymayı kabul etmiyorsanız, lütfen uygulamayı kullanmayın."
+    },
+    {
+      "heading": "Kullanım Kısıtlamaları",
+      "content": "Uygulamayı yalnızca yasal amaçlar için kullanabilirsiniz. Uygulamanın güvenliğini veya bütünlüğünü tehlikeye atacak herhangi bir faaliyette bulunamazsınız. Hile, bot veya diğer otomatik sistemlerin kullanımı kesinlikle yasaktır."
+    },
+    {
+      "heading": "Fikri Mülkiyet",
+      "content": "Uygulama içindeki tüm içerik, tasarım, grafik, kod ve diğer materyaller telif hakkı ve diğer fikri mülkiyet yasaları ile korunmaktadır. Bu materyalleri izinsiz kopyalayamaz, dağıtamaz veya kullanamazsınız."
+    },
+    {
+      "heading": "Sorumluluk Reddi",
+      "content": "Uygulama 'olduğu gibi' sağlanmaktadır. Uygulamanın kesintisiz, hatasız veya güvenli çalışacağına dair hiçbir garanti verilmemektedir. Uygulamanın kullanımından kaynaklanan herhangi bir zarardan sorumlu değiliz."
+    },
+    {
+      "heading": "Değişiklikler",
+      "content": "Bu kullanım şartlarını herhangi bir zamanda değiştirme hakkını saklı tutarız. Önemli değişiklikler yapıldığında size bildirimde bulunacağız. Değişikliklerden sonra uygulamayı kullanmaya devam etmeniz, güncellenmiş şartları kabul ettiğiniz anlamına gelir."
+    }
+  ]
+}
+

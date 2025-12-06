@@ -1,0 +1,331 @@
+.main-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0 auto;
+  background: #f9fafb;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow: hidden;
+}
+
+/* Fixed Header with Logo */
+.main-menu-header {
+  position: fixed;
+  top: 0;
+  left: 33.333%;
+  right: 33.333%;
+  z-index: 100;
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    #f9fafb 0%,
+    rgba(249, 250, 251, 0.95) 50%,
+    rgba(249, 250, 251, 0.7) 75%,
+    transparent 100%
+  );
+}
+
+.main-menu-header h1 {
+  pointer-events: auto;
+}
+
+.colorquest-logo {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .main-menu-header {
+    background: linear-gradient(
+      to bottom,
+      #111827 0%,
+      rgba(17, 24, 39, 0.95) 20%,
+      rgba(17, 24, 39, 0.7) 60%,
+      transparent 100%
+    );
+  }
+}
+
+.main-menu-content {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: calc(33vh + 24px) 24px 150px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.main-menu::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .main-menu {
+    background: #111827;
+    color: #f9fafb;
+  }
+
+  .main-menu::before {
+    opacity: 0.05;
+  }
+}
+
+.main-menu-content {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 64px 24px 150px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/* Gradient Overlay */
+.gradient-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(249, 250, 251, 0.8) 0%,
+    transparent 100%
+  );
+  z-index: 10;
+  pointer-events: none;
+}
+
+.gradient-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+@media (prefers-color-scheme: dark) {
+  .gradient-overlay {
+    background: linear-gradient(
+      to top,
+      rgba(17, 24, 39, 0.8) 0%,
+      transparent 100%
+    );
+  }
+
+  .gradient-overlay::before {
+    opacity: 0.08;
+  }
+}
+
+/* Level Progression Scroll Container */
+.level-progression-scroll {
+  position: relative;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 128px;
+  /* Hide scrollbar for cleaner look */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.level-progression-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Level Progression */
+.level-progression {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+}
+
+.level-indicator-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Level Connectors (Dashed Lines) */
+.level-connector {
+  width: 2px;
+  height: 48px;
+  position: relative;
+  background-image: linear-gradient(to bottom, #cbd5e1 50%, transparent 50%);
+  background-size: 2px 8px;
+  background-repeat: repeat-y;
+}
+
+@media (prefers-color-scheme: dark) {
+  .level-connector {
+    background-image: linear-gradient(to bottom, #475569 50%, transparent 50%);
+  }
+}
+
+.level-connector.connector-active {
+  background-image: linear-gradient(to bottom, #8b5cf6 50%, transparent 50%);
+}
+
+/* Level Indicators */
+.level-indicator {
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #e2e8f0;
+  color: #94a3b8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .level-indicator {
+    background: #374151;
+    color: #6b7280;
+  }
+}
+
+/* Size Classes */
+.level-indicator-large {
+  width: 128px;
+  height: 128px;
+  font-size: 3rem;
+}
+
+.level-indicator-medium {
+  width: 96px;
+  height: 96px;
+  font-size: 2.5rem;
+}
+
+.level-indicator-small {
+  width: 80px;
+  height: 80px;
+  font-size: 1.875rem;
+}
+
+/* Level States */
+.level-active {
+  background: #8b5cf6 !important;
+  color: white !important;
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.3);
+  scroll-margin: 120px;
+}
+
+.level-unlocked {
+  background: #e2e8f0;
+  color: #64748b;
+}
+
+@media (prefers-color-scheme: dark) {
+  .level-unlocked {
+    background: #374151;
+    color: #9ca3af;
+  }
+}
+
+.level-inactive {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.level-indicator:not(.level-inactive):hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.25);
+}
+
+.level-indicator:disabled {
+  cursor: not-allowed;
+}
+
+.level-number {
+  display: block;
+}
+
+/* Level Label */
+.level-label {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+@media (prefers-color-scheme: dark) {
+  .level-label {
+    color: #cbd5e1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .main-menu-content {
+    padding: 0 20px 24px;
+  }
+
+  .level-indicator-large {
+    width: 112px;
+    height: 112px;
+    font-size: 2.5rem;
+  }
+
+  .level-indicator-medium {
+    width: 88px;
+    height: 88px;
+    font-size: 2.25rem;
+  }
+
+  .level-indicator-small {
+    width: 72px;
+    height: 72px;
+    font-size: 1.5rem;
+  }
+
+  .level-connector {
+    height: 40px;
+  }
+
+  .level-label {
+    font-size: 1rem;
+  }
+}
+
+/* Material Symbols styling */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}

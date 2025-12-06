@@ -1,0 +1,1002 @@
+[
+  {
+    "level": 1,
+    "size": 2,
+    "timer": 10,
+    "colorLikeness": 0.712152083571068,
+    "color": "#C7A0F7",
+    "backgroundColor": "#F7EFA0",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 2,
+    "size": 2,
+    "timer": 10,
+    "colorLikeness": 0.7151779399257372,
+    "color": "#A0C8F8",
+    "backgroundColor": "#F8D9A0",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 3,
+    "size": 3,
+    "timer": 10,
+    "colorLikeness": 0.8186933377991776,
+    "color": "#C7D9FF",
+    "backgroundColor": "#FFE4C7",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 4,
+    "size": 3,
+    "timer": 10,
+    "colorLikeness": 0.815196221670665,
+    "color": "#C2D0F7",
+    "backgroundColor": "#F7F0C2",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 5,
+    "size": 4,
+    "timer": 15,
+    "colorLikeness": 0.780736058891001,
+    "color": "#B8C4F9",
+    "backgroundColor": "#F9E2B8",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 6,
+    "size": 4,
+    "timer": 15,
+    "colorLikeness": 0.9071124755180769,
+    "color": "#E2F4FD",
+    "backgroundColor": "#FDE2E4",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 7,
+    "size": 4,
+    "timer": 15,
+    "colorLikeness": 0.8797758173078316,
+    "color": "#D6E9F9",
+    "backgroundColor": "#F9D6D6",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 8,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9088164659279678,
+    "color": "#DCE8F8",
+    "backgroundColor": "#F8E1DC",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 9,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8543094929323446,
+    "color": "#CBD8F7",
+    "backgroundColor": "#F7E8CB",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 10,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8555322409415286,
+    "color": "#CDD8F8",
+    "backgroundColor": "#F8EBCD",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 11,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8222303208841757,
+    "color": "#C0D0F7",
+    "backgroundColor": "#E8F7C0",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 12,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8542918473794345,
+    "color": "#C8D4F8",
+    "backgroundColor": "#DFF8C8",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 13,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9083383994040466,
+    "color": "#D8E0F7",
+    "backgroundColor": "#E4F7D8",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 14,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8855155958152895,
+    "color": "#D6DBF7",
+    "backgroundColor": "#F0F7D6",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 15,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8799041934071169,
+    "color": "#D2D9F8",
+    "backgroundColor": "#E6F8D2",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 16,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9106104156715328,
+    "color": "#D1E8F0",
+    "backgroundColor": "#F0D1E8",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 17,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.899201311696631,
+    "color": "#D3E9F7",
+    "backgroundColor": "#F7D3E9",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 18,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9185881039863208,
+    "color": "#D6E7F4",
+    "backgroundColor": "#F4D6EA",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 19,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9429489994312511,
+    "color": "#DCE6F2",
+    "backgroundColor": "#F2DCEB",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 20,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8933999158862298,
+    "color": "#D0E5F5",
+    "backgroundColor": "#F5D0E1",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 21,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.7408807114011917,
+    "color": "#A8C8F7",
+    "backgroundColor": "#F7E0A8",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 22,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.7464978361785035,
+    "color": "#A8D3F7",
+    "backgroundColor": "#F7CFA8",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 23,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.7767735219109283,
+    "color": "#B5CBFA",
+    "backgroundColor": "#FAD8B5",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 24,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8014480566352132,
+    "color": "#BACBF7",
+    "backgroundColor": "#F7DABA",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 25,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8308718335982435,
+    "color": "#C4D0F7",
+    "backgroundColor": "#F7E3C4",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 26,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9515778764080213,
+    "color": "#F5E7EA",
+    "backgroundColor": "#E7F5F2",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 27,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9155804513878173,
+    "color": "#F8DFE5",
+    "backgroundColor": "#DFF3F8",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 28,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9380657583503508,
+    "color": "#F8E4ED",
+    "backgroundColor": "#E4F3F8",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 29,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9321999256792469,
+    "color": "#FFE8F2",
+    "backgroundColor": "#E8F6FF",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 30,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9034215898455925,
+    "color": "#FEDFEC",
+    "backgroundColor": "#DFF6FE",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 31,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9102086627064702,
+    "color": "#F2D6E4",
+    "backgroundColor": "#D6F2E4",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 32,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8841982282557487,
+    "color": "#F3CFE5",
+    "backgroundColor": "#CFF3E9",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 33,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9104954450975485,
+    "color": "#F3D8E3",
+    "backgroundColor": "#D8F3ED",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 34,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9035547831377019,
+    "color": "#F0D2E8",
+    "backgroundColor": "#D2F0EB",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 35,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8805696681880845,
+    "color": "#F7D2E8",
+    "backgroundColor": "#D2F7EE",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 36,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8811523112800121,
+    "color": "#D7E6FC",
+    "backgroundColor": "#FCE3D7",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 37,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8685198275344741,
+    "color": "#CFD9F8",
+    "backgroundColor": "#F8D9CF",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 38,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8490061513416192,
+    "color": "#C8D2F7",
+    "backgroundColor": "#F7CEC8",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 39,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8386354024974404,
+    "color": "#C0D1F2",
+    "backgroundColor": "#F2C9C0",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 40,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8973562784784012,
+    "color": "#D7DFF7",
+    "backgroundColor": "#F7DED7",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 41,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9224039064296206,
+    "color": "#F7E2F5",
+    "backgroundColor": "#E2F7E4",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 42,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8887732565221703,
+    "color": "#F5D6F1",
+    "backgroundColor": "#D6F5DB",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 43,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9031026729287007,
+    "color": "#F6D9EE",
+    "backgroundColor": "#D9F6E2",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 44,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.931295884773047,
+    "color": "#F8E3F2",
+    "backgroundColor": "#E3F8EC",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 45,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.868383021669556,
+    "color": "#F4CCE8",
+    "backgroundColor": "#CCF4DB",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 46,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8902859827355742,
+    "color": "#D7E0F8",
+    "backgroundColor": "#F1F8D7",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 47,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8648366291081522,
+    "color": "#D1D5F5",
+    "backgroundColor": "#F5F4D1",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 48,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.853079422195691,
+    "color": "#CFCFF6",
+    "backgroundColor": "#F6F1CF",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 49,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.844973563400116,
+    "color": "#D0E0FF",
+    "backgroundColor": "#FFF0D0",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 50,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8728944539025713,
+    "color": "#D6E2FD",
+    "backgroundColor": "#FDECD6",
+    "differentColors": 1,
+    "shape": "box"
+  },
+  {
+    "level": 51,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.712152083571068,
+    "color": "#C7A0F7",
+    "backgroundColor": "#F7EFA0",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 52,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.7151779399257372,
+    "color": "#A0C8F8",
+    "backgroundColor": "#F8D9A0",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 53,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8186933377991776,
+    "color": "#C7D9FF",
+    "backgroundColor": "#FFE4C7",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 54,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.815196221670665,
+    "color": "#C2D0F7",
+    "backgroundColor": "#F7F0C2",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 55,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.780736058891001,
+    "color": "#B8C4F9",
+    "backgroundColor": "#F9E2B8",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 56,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9071124755180769,
+    "color": "#E2F4FD",
+    "backgroundColor": "#FDE2E4",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 57,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8797758173078316,
+    "color": "#D6E9F9",
+    "backgroundColor": "#F9D6D6",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 58,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.9088164659279678,
+    "color": "#DCE8F8",
+    "backgroundColor": "#F8E1DC",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 59,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8543094929323446,
+    "color": "#CBD8F7",
+    "backgroundColor": "#F7E8CB",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 60,
+    "size": 5,
+    "timer": 15,
+    "colorLikeness": 0.8555322409415286,
+    "color": "#CDD8F8",
+    "backgroundColor": "#F8EBCD",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 61,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.8222303208841757,
+    "color": "#C0D0F7",
+    "backgroundColor": "#E8F7C0",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 62,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.8542918473794345,
+    "color": "#C8D4F8",
+    "backgroundColor": "#DFF8C8",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 63,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9083383994040466,
+    "color": "#D8E0F7",
+    "backgroundColor": "#E4F7D8",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 64,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.8855155958152895,
+    "color": "#D6DBF7",
+    "backgroundColor": "#F0F7D6",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 65,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.8799041934071169,
+    "color": "#D2D9F8",
+    "backgroundColor": "#E6F8D2",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 66,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9106104156715328,
+    "color": "#D1E8F0",
+    "backgroundColor": "#F0D1E8",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 67,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.899201311696631,
+    "color": "#D3E9F7",
+    "backgroundColor": "#F7D3E9",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 68,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9185881039863208,
+    "color": "#D6E7F4",
+    "backgroundColor": "#F4D6EA",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 69,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9429489994312511,
+    "color": "#DCE6F2",
+    "backgroundColor": "#F2DCEB",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 70,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.8933999158862298,
+    "color": "#D0E5F5",
+    "backgroundColor": "#F5D0E1",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 71,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.7408807114011917,
+    "color": "#A8C8F7",
+    "backgroundColor": "#F7E0A8",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 72,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.7464978361785035,
+    "color": "#A8D3F7",
+    "backgroundColor": "#F7CFA8",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 73,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.7767735219109283,
+    "color": "#B5CBFA",
+    "backgroundColor": "#FAD8B5",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 74,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.8014480566352132,
+    "color": "#BACBF7",
+    "backgroundColor": "#F7DABA",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 75,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.8308718335982435,
+    "color": "#C4D0F7",
+    "backgroundColor": "#F7E3C4",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 76,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9515778764080213,
+    "color": "#F5E7EA",
+    "backgroundColor": "#E7F5F2",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 77,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9155804513878173,
+    "color": "#F8DFE5",
+    "backgroundColor": "#DFF3F8",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 78,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9380657583503508,
+    "color": "#F8E4ED",
+    "backgroundColor": "#E4F3F8",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 79,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9321999256792469,
+    "color": "#FFE8F2",
+    "backgroundColor": "#E8F6FF",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 80,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9034215898455925,
+    "color": "#FEDFEC",
+    "backgroundColor": "#DFF6FE",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 81,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9102086627064702,
+    "color": "#F2D6E4",
+    "backgroundColor": "#D6F2E4",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 82,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.8841982282557487,
+    "color": "#F3CFE5",
+    "backgroundColor": "#CFF3E9",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 83,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9104954450975485,
+    "color": "#F3D8E3",
+    "backgroundColor": "#D8F3ED",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 84,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.9035547831377019,
+    "color": "#F0D2E8",
+    "backgroundColor": "#D2F0EB",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 85,
+    "size": 6,
+    "timer": 15,
+    "colorLikeness": 0.8805696681880845,
+    "color": "#F7D2E8",
+    "backgroundColor": "#D2F7EE",
+    "differentColors": 2,
+    "shape": "box"
+  },
+  {
+    "level": 86,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.8811523112800121,
+    "color": "#D7E6FC",
+    "backgroundColor": "#FCE3D7",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 87,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.8685198275344741,
+    "color": "#CFD9F8",
+    "backgroundColor": "#F8D9CF",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 88,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.8490061513416192,
+    "color": "#C8D2F7",
+    "backgroundColor": "#F7CEC8",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 89,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.8386354024974404,
+    "color": "#C0D1F2",
+    "backgroundColor": "#F2C9C0",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 90,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.8973562784784012,
+    "color": "#D7DFF7",
+    "backgroundColor": "#F7DED7",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 91,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.9224039064296206,
+    "color": "#F7E2F5",
+    "backgroundColor": "#E2F7E4",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 92,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.8887732565221703,
+    "color": "#F5D6F1",
+    "backgroundColor": "#D6F5DB",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 93,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.9031026729287007,
+    "color": "#F6D9EE",
+    "backgroundColor": "#D9F6E2",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 94,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.931295884773047,
+    "color": "#F8E3F2",
+    "backgroundColor": "#E3F8EC",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 95,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.868383021669556,
+    "color": "#F4CCE8",
+    "backgroundColor": "#CCF4DB",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 96,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.8902859827355742,
+    "color": "#D7E0F8",
+    "backgroundColor": "#F1F8D7",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 97,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.8648366291081522,
+    "color": "#D1D5F5",
+    "backgroundColor": "#F5F4D1",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 98,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.853079422195691,
+    "color": "#CFCFF6",
+    "backgroundColor": "#F6F1CF",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 99,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.844973563400116,
+    "color": "#D0E0FF",
+    "backgroundColor": "#FFF0D0",
+    "differentColors": 3,
+    "shape": "box"
+  },
+  {
+    "level": 100,
+    "size": 7,
+    "timer": 15,
+    "colorLikeness": 0.8728944539025713,
+    "color": "#D6E2FD",
+    "backgroundColor": "#FDECD6",
+    "differentColors": 3,
+    "shape": "heart"
+  }
+]

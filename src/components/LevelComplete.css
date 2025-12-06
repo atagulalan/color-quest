@@ -1,0 +1,228 @@
+.level-complete-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease;
+}
+
+.level-complete-modal {
+  text-align: center;
+  animation: slideUp 0.3s ease;
+  width: 100%;
+  max-width: 28rem;
+  padding: 2rem 1rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.level-complete-back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.level-complete-back-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.level-complete-back-button .material-symbols-outlined {
+  font-size: 24px;
+  color: var(--text-primary);
+}
+
+.level-complete-title-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.level-complete-modal h2 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.level-complete-stars {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.level-complete-stars .star {
+  font-size: 4rem;
+  animation: starPop 0.5s ease backwards;
+}
+
+.level-complete-stars .star:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.level-complete-stars .star:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.level-complete-stars .star:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.level-complete-stars .star-filled {
+  color: #fbbf24;
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+.level-complete-stars .star-empty {
+  color: #d1d5db;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+.level-complete-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 28rem;
+  padding: 0 1rem 2rem;
+}
+
+.level-complete-button {
+  padding: 0 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  letter-spacing: 0.02em;
+  width: 100%;
+}
+
+.level-complete-button .material-symbols-outlined {
+  font-size: 1.75rem;
+}
+
+.level-complete-button-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.level-complete-button-primary {
+  background-color: #13ec6d;
+  color: #111814;
+  box-shadow: 0 10px 15px -3px rgba(19, 236, 109, 0.2),
+    0 4px 6px -2px rgba(19, 236, 109, 0.05);
+  height: 4.5rem;
+  font-size: 1.375rem;
+}
+
+.level-complete-button-primary:hover {
+  background-color: rgba(19, 236, 109, 0.9);
+  transform: translateY(-2px);
+}
+
+.level-complete-button-secondary {
+  background-color: var(--surface-secondary);
+  color: var(--text-primary);
+  height: 3.5rem;
+}
+
+.level-complete-button-secondary:hover {
+  background-color: var(--surface-hover);
+  transform: translateY(-2px);
+}
+
+.level-complete-button:active {
+  transform: scale(0.98);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes starPop {
+  0% {
+    transform: scale(0) rotate(-180deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .level-complete-modal {
+    padding: 1.5rem 1rem;
+  }
+
+  .level-complete-modal h2 {
+    font-size: 2.5rem;
+  }
+
+  .level-complete-stars .star {
+    font-size: 3rem;
+  }
+
+  .level-complete-buttons {
+    gap: 0.75rem;
+  }
+
+  .level-complete-button-primary {
+    height: 4rem;
+    font-size: 1.25rem;
+  }
+
+  .level-complete-button-secondary {
+    height: 3rem;
+    font-size: 1.125rem;
+  }
+}
