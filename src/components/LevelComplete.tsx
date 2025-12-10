@@ -19,7 +19,7 @@ export function LevelComplete({
     <div className="level-complete-overlay">
       <div className="level-complete-modal">
         <div className="level-complete-title-container">
-          <h2>Bölüm Tamamlandı!</h2>
+          <h2>Level Complete!</h2>
           <div className="level-complete-stars">
             {[1, 2, 3].map((star) => (
               <span
@@ -42,7 +42,7 @@ export function LevelComplete({
               {isLastLevel ? 'home' : 'arrow_forward'}
             </span>
             <span className="level-complete-button-text">
-              {isLastLevel ? 'Ana Menü' : 'Sonraki Bölüm'}
+              {isLastLevel ? 'Main Menu' : 'Next Level'}
             </span>
           </button>
           <button
@@ -50,7 +50,9 @@ export function LevelComplete({
             onClick={onMainMenu}
           >
             <span className="material-symbols-outlined">home</span>
-            <span className="level-complete-button-text">Ana Menüye Dön</span>
+            <span className="level-complete-button-text">
+              Back to Main Menu
+            </span>
           </button>
         </div>
       </div>

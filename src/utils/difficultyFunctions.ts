@@ -10,8 +10,8 @@ import type { Shape } from '../types/gameTypes'
 export function increaseColorSimilarity(level: number): number {
   // Start with very low similarity (very easy) and gradually increase
   // Level 1: 0.0 (very different colors), Level 50: ~0.5, Level 100: ~0.85
-  const baseSimilarity = 0.0
-  const maxSimilarity = 0.85
+  const baseSimilarity = 0.5
+  const maxSimilarity = 1
   const progression = (level - 1) / 99 // 0 to 1 over 100 levels
 
   return Math.min(
@@ -38,10 +38,8 @@ export function increaseGridComplexity(level: number): {
   if (level > 60) size = 6 // Level 61+: 6x6
   if (level > 85) size = 7 // Level 86+: 7x7
 
-  // Number of different colors: starts at 1, increases later
+  // Number of different colors: always 1 for now
   let differentColors = 1
-  if (level > 50) differentColors = 2
-  if (level > 85) differentColors = 3
 
   return { size, differentColors }
 }
@@ -62,7 +60,7 @@ export function getTimerForSize(size: number): number {
  * @returns Shape type
  */
 export function selectShape(level: number): Shape {
-  const shapes: Shape[] = ['box', 'heart', 'circle', 'star']
+  const shapes: Shape[] = ['box']
   const randomIndex = seededRandomRange(level, 100, 0, shapes.length - 1)
   return shapes[randomIndex]
 }

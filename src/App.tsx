@@ -9,6 +9,7 @@ import { Store } from './components/Store'
 import { TimeUpScreen } from './components/TimeUpScreen'
 import { WrongAnswer } from './components/WrongAnswer'
 import { LevelComplete } from './components/LevelComplete'
+import { QuestionDisplay } from './components/QuestionDisplay'
 import { useTimer } from './hooks/useTimer'
 import { useGameState } from './hooks/useGameState'
 import {
@@ -42,6 +43,8 @@ function App() {
   const [isLoadingLevels, setIsLoadingLevels] = useState(true)
   const [loadError, setLoadError] = useState<string | null>(null)
   const mainMenuRef = useRef<MainMenuRef>(null)
+  const [showQuestion, setShowQuestion] = useState(false)
+  const [questionCompleted, setQuestionCompleted] = useState(false)
 
   const {
     currentLevel,
@@ -127,7 +130,11 @@ function App() {
   // Timer setup
   const timer = useTimer({
     initialTime: currentLevelData?.timer || 15,
-    enabled: screen === 'game' && !gameState.isPaused && !gameState.isGameOver,
+    enabled:
+      screen === 'game' &&
+      !gameState.isPaused &&
+      !gameState.isGameOver &&
+      !showQuestion,
     onComplete: () => {
       gameOver(false)
       playLoseSound(settings.sound)
@@ -144,8 +151,22 @@ function App() {
   useEffect(() => {
     if (currentLevelData && screen === 'game') {
       timer.reset()
+      // Check if level has a question
+      if (currentLevelData.askQuestion) {
+        setShowQuestion(true)
+        setQuestionCompleted(false)
+      } else {
+        setShowQuestion(false)
+        setQuestionCompleted(false)
+      }
     }
   }, [currentLevelData?.level, screen])
+
+  // Handle question completion
+  const handleQuestionComplete = () => {
+    setShowQuestion(false)
+    setQuestionCompleted(true)
+  }
 
   const handleStartGame = (level: number) => {
     if (isLoadingLevels) return // Prevent starting game while loading
@@ -211,6 +232,12 @@ function App() {
   }
 
   const handleNextLevel = () => {
+    // Redirect to Google link after level 52
+    if (currentLevel === 52) {
+      window.location.href = 'https://miew.xava.me/'
+      return
+    }
+
     if (currentLevel < 100) {
       nextLevel()
       setScreen('game')
@@ -363,7 +390,7 @@ function App() {
         ? '/assets/documents/privacy-policy.json'
         : '/assets/documents/terms-of-service.json'
     const documentTitle =
-      documentType === 'privacy' ? 'Gizlilik Politikası' : 'Kullanım Şartları'
+      documentType === 'privacy' ? 'Privacy Policy' : 'Terms of Service'
 
     return (
       <div className="app">
@@ -422,6 +449,23 @@ function App() {
   return (
     <div className="app">
       <div className="game-container">
+        {/* Show question if level has one */}
+        {currentLevelData.askQuestion && showQuestion && (
+          <QuestionDisplay
+            question={currentLevelData.askQuestion}
+            onComplete={handleQuestionComplete}
+          />
+        )}
+
+        {/* Show question in top bar after animation completes */}
+        {currentLevelData.askQuestion && questionCompleted && (
+          <div className="question-topbar">
+            <p className="question-topbar-text">
+              {currentLevelData.askQuestion}
+            </p>
+          </div>
+        )}
+
         <div className="game-card">
           <div className="game-header">
             <div className="game-header-top">
@@ -448,7 +492,7 @@ function App() {
             />
           </div>
 
-          <div className="powerup-buttons">
+          {/* <div className="powerup-buttons">
             <button
               className="powerup-button"
               onClick={() => handlePowerUp('hourglass')}
@@ -470,7 +514,7 @@ function App() {
             >
               <span className="material-symbols-outlined">bomb</span>
             </button>
-          </div>
+          </div> */}
         </div>
 
         {gameState.isPaused && (

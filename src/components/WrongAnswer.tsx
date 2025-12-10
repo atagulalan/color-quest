@@ -15,7 +15,7 @@ export function WrongAnswer({ onRestart, onMainMenu }: WrongAnswerProps) {
               close
             </span>
           </div>
-          <h1 className="wrong-answer-title">Yanlış!</h1>
+          <h1 className="wrong-answer-title">Wrong!</h1>
         </div>
         <div className="wrong-answer-buttons">
           <button
@@ -23,18 +23,17 @@ export function WrongAnswer({ onRestart, onMainMenu }: WrongAnswerProps) {
             onClick={onRestart}
           >
             <span className="material-symbols-outlined">replay</span>
-            <span className="wrong-answer-button-text">Tekrar Dene</span>
+            <span className="wrong-answer-button-text">Try Again</span>
           </button>
           <button
             className="wrong-answer-button wrong-answer-button-secondary"
             onClick={onMainMenu}
           >
             <span className="material-symbols-outlined">home</span>
-            <span className="wrong-answer-button-text">Ana Menüye Dön</span>
+            <span className="wrong-answer-button-text">Back to Main Menu</span>
           </button>
         </div>
       </div>
     </div>
   )
 }
-

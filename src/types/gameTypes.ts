@@ -9,6 +9,7 @@ export interface Level {
   backgroundColor: string; // hex color
   differentColors: number; // number of different colored cells
   shape: Shape;
+  askQuestion?: string; // optional question to display
 }
 
 export interface GameSettings {

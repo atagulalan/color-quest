@@ -1,5 +1,6 @@
 .document-viewer-page {
-  min-height: 100vh;
+  height: 100svh;
+  max-height: 100svh;
   background: #1a4d3a;
   display: flex;
   flex-direction: column;
