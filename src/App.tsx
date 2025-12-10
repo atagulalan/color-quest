@@ -441,10 +441,10 @@ function App() {
     )
   }
 
-  const handlePowerUp = (type: 'hourglass' | 'magnify' | 'bomb') => {
-    // Placeholder for power-up functionality
-    console.log(`Power-up clicked: ${type}`)
-  }
+  // const handlePowerUp = (type: 'hourglass' | 'magnify' | 'bomb') => {
+  //   // Placeholder for power-up functionality
+  //   console.log(`Power-up clicked: ${type}`)
+  // }
 
   return (
     <div className="app">
