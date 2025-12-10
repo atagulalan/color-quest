@@ -232,12 +232,6 @@ function App() {
   }
 
   const handleNextLevel = () => {
-    // Redirect to Google link after level 52
-    if (currentLevel === 52) {
-      window.location.href = 'https://miew.xava.me/'
-      return
-    }
-
     if (currentLevel < 100) {
       nextLevel()
       setScreen('game')

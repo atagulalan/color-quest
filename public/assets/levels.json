@@ -507,8 +507,7 @@
     "color": "#0e57a1",
     "backgroundColor": "#2a57dc",
     "differentColors": 1,
-    "shape": "box",
-    "askQuestion": "What color is Miew's hat?"
+    "shape": "box"
   },
   {
     "level": 52,
@@ -518,8 +517,7 @@
     "color": "#ab9fd5",
     "backgroundColor": "#1d3090",
     "differentColors": 1,
-    "shape": "box",
-    "askQuestion": "What is Ata's favorite color?"
+    "shape": "box"
   },
   {
     "level": 53,
